@@ -14,6 +14,8 @@ nav.top-nav {
     padding-right: 12px;
     font-family: 'Inter', sans-serif;
     background: rgba(5, 60, 94, 0.8);
+    font-weight: 400;
+    position: fixed;
 }
 
 nav.top-nav ul{
@@ -118,4 +120,36 @@ ul.socials li:hover {
     cursor: pointer;
     color: white;
     transform: scale(1.5);
+}
+
+section.about {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+section.about h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+hr.blue {
+    padding: 2px;
+    width: 3%;
+    border-radius: 50px;
+    border: none;
+    background-color: #1d3958;
+    margin-bottom: 12px;
+}
+
+section.about p {
+    font-size: 1.2em;
+    color: rgb(88, 82, 82);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
