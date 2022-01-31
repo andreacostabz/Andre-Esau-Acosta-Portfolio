@@ -22,6 +22,12 @@ nav.top-nav ul{
     margin-left: auto;
 }
 
+nav.top-nav li:hover {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
 section.main{
     display: flex;
     flex-direction: column;
