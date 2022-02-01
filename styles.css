@@ -100,6 +100,11 @@ div.buttons button {
     font-weight: 600;
 }
 
+div.buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
 div.buttons button:hover {
     box-sizing: border-box;
     border: 2px solid #db222a;
@@ -114,6 +119,11 @@ ul.socials {
     gap: 18px;
     margin-top: 2em;
     font-size: 18px;
+}
+
+ul.socials a{
+    text-decoration: none;
+    color: #000000;
 }
 
 ul.socials li:hover {
@@ -217,8 +227,4 @@ div.column2 li {
     padding: 5px;
     background-color: #1d3958;
     color: #fff;
-}
-
-div.column2 li:hover {
-    cursor:none;
 }
