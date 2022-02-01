@@ -152,6 +152,7 @@ section.about p {
     color: rgb(88, 82, 82);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    line-height: 150%;
 }
 
 div.about-info-container {
