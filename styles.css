@@ -81,6 +81,7 @@ section.main p {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
+
 }
 
 div.buttons {
@@ -123,9 +124,9 @@ ul.socials li:hover {
 
 section.about {
     display: flex;
-    flex-direction: column;
     height: 100vh;
     align-items: center;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -151,4 +152,72 @@ section.about p {
     color: rgb(88, 82, 82);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+}
+
+div.about-info-container {
+    display: flex;
+}
+
+div.column1 {
+    margin-top: 3%;
+    width: 40%;
+    height: 500px;
+    margin-right: 12em;
+    margin-left: 12em;
+}
+
+div.column1 h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+div.column1 button {
+    margin-top: 2em;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 5px;
+}
+
+div.column1 button:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #db222a;
+    background-color: #053c5e;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+div.column2 {
+    margin-top: 3%;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.column2 p {
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+div.column2 li {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    list-style-type:square;
+    margin-bottom: 2%;
+    width: 55%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #1d3958;
+    color: #fff;
+}
+
+div.column2 li:hover {
+    cursor:none;
 }
