@@ -228,3 +228,18 @@ div.column2 li {
     background-color: #1d3958;
     color: #fff;
 }
+
+/* media querie for mobile */
+
+@media (max-width: 450px) {
+    section.main {
+        display: flex;
+    }
+
+    section.main h1 {
+        font-size: 2em;
+    }
+    section.main p {
+        padding-left: 2%;
+    }
+}
